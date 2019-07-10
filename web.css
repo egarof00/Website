@@ -1,0 +1,56 @@
+body{
+  background-image: url("https://thumbs.gfycat.com/BlushingEagerHerald-max-1mb.gif");
+  font-family: "Georgia"; color: white;
+}
+.headings{
+  color: Black; font-family: "Verdana"; background-color: BlueViolet;
+  text-shadow: 2px 1px blue;
+
+}
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover{
+  background-color:#cc99ff ;
+  color: white;
+}
+ .topnav a.active{
+   background-color: blue;
+   color: white;
+ }
+
+ .topnav .icon{
+   display: none;
+ }
+
+  #whatev{
+  animation-duration: 3s;
+  animation-name: slidein;
+ }
+
+@keyframes slidein {
+  from{
+    margin-left: 100%;
+    width: 300%;
+  }
+  to{
+    margin-left: 0%;
+    width:100%;
+  }
+}
+.tab{
+  text-indent: 40px
+} */
